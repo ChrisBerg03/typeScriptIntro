@@ -6,7 +6,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "t1": "tsx task-1/index.ts",
     "t2": "tsx task-2/index.ts",
-    "t3": "tsx task-3/index.ts"
+    "t3": "tsx task-3/index.ts",
+    "t4": "tsx task-4/index.ts",
+    "t5": "tsx task-5/index.ts",
+    "t6": "tsx task-cart/index.ts"
   },
   "keywords": [],
   "author": "",

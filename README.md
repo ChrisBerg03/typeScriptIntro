@@ -42,12 +42,12 @@ To declare our own structures for an object we can use types or interfaces.
 
 ```ts
 interface Interface {
-  id: number;
-  name: string;
+    id: number;
+    name: string;
 }
 type Type = {
-  id: number;
-  name: string;
+    id: number;
+    name: string;
 };
 ```
 
@@ -64,27 +64,27 @@ Interfaces can be extended or changed, types are set at creation.
 
 ```ts
 type Type = {
-  id: number;
-  name: string;
+    id: number;
+    name: string;
 };
 
 interface Interface {
-  id: number;
-  name: string;
+    id: number;
+    name: string;
 }
 
 interface ExtendedInterface extends Interface {
-  content: string;
+    content: string;
 }
 
 interface Interface {
-  content?: string;
+    content?: string;
 }
 
 const interfaceWithContent: Interface = {
-  id: 1,
-  name: "Ola",
-  content: "test",
+    id: 1,
+    name: "Ola",
+    content: "test",
 };
 ```
 
